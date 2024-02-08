@@ -36,7 +36,7 @@ print(Rebirth)
 
 if (getrank() < 3 and not hasunlockzones("Rainbow River")) or (Rebirth == 1 and not hasunlockzones("Rainbow River")) then
     -- auto rank
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pipipipipia23/aahsdasd-/main/asdzxc"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OuranosCloud/test/main/main1"))()
     -- end auto rank
 else
 ---
